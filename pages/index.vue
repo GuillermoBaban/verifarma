@@ -1,14 +1,26 @@
 <template>
-  <div>
-    <h2>Home</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam excepturi
-      et tenetur, cupiditate nostrum ut eligendi expedita perferendis repellat
-      ea.
-    </p>
+  <div class="bg-primary">
+    <LoginForm />
   </div>
 </template>
 
-<script setup></script>
+<script>
+import LoginForm from "~/components/LoginForm.vue";
+
+export default {
+  components: { LoginForm },
+  data() {
+    return {};
+  },
+
+  async beforeMount() {
+    definePageMeta({ auth: false });
+    const { status } = useAuth();
+    if (status.value === "authenticated") {
+      this.$router.push("/movies");
+    }
+  },
+};
+</script>
 
 <style scoped></style>
