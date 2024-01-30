@@ -14,7 +14,10 @@ export default {
   },
 
   async beforeMount() {
-    definePageMeta({ auth: false });
+    definePageMeta({
+      auth: false,
+      layout: false,
+    });
     const { status } = useAuth();
     if (status.value === "authenticated") {
       this.$router.push("/movies");

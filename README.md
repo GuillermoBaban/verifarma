@@ -1,75 +1,37 @@
-# Nuxt 3 Minimal Starter
+# Verifarma Movie Challenger
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Este proyecto es un Challenger de Películas desarrollado por Verifarma.
 
-## Setup
+## Descripción
 
-Make sure to install the dependencies:
+Este desafío de películas utiliza la tecnología Nuxt.js para crear una aplicación web interactiva. Permite a los usuarios explorar y descubrir información sobre películas de una manera divertida y desafiante.
 
-```bash
-# npm
-npm install
+## Tecnologías Utilizadas
 
-# pnpm
-pnpm install
+- [Nuxt.js](https://nuxtjs.org/)
+- [@nuxt/image](https://image.nuxtjs.org/)
+- [@nuxtjs/tailwindcss](https://tailwindcss.nuxtjs.org/)
+- [@sidebase/nuxt-auth](https://auth.nuxtjs.org/)
+- [next-auth](https://next-auth.js.org/)
+- [nuxt-icon](https://pfeiffer-git.github.io/nuxt-icon/)
+- [vue](https://v3.vuejs.org/)
+- [vue-router](https://router.vuejs.org/)
+- [nuxt-swiper](https://github.com/surmon-china/vue-awesome-swiper)
 
-# yarn
-yarn install
+## Scripts
 
-# bun
-bun install
-```
+- `build`: Compila la aplicación para producción.
+- `dev`: Inicia un servidor de desarrollo.
+- `generate`: Genera la aplicación estática.
+- `preview`: Inicia un servidor para previsualizar la aplicación generada.
+- `postinstall`: Configuración de Nuxt después de la instalación.
 
-## Development Server
+## Instalación
 
-Start the development server on `http://localhost:3000`:
+1. Clona este repositorio: `git clone https://github.com/GuillermoBaban/verifarma.git`
+2. Instala las dependencias: `npm install`
 
-```bash
-# npm
-npm run dev
+## Uso
 
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- Desarrollo: `npm run dev`
+- Producción: `npm run build`
