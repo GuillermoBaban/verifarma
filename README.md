@@ -35,3 +35,14 @@ Este desafío de películas utiliza la tecnología Nuxt.js para crear una aplica
 
 - Desarrollo: `npm run dev`
 - Producción: `npm run build`
+
+## Acceso al Proyecto Desplegado
+
+El proyecto ha sido desplegado y se puede acceder en [verifarma.vercel.app](https://verifarma.vercel.app/).
+
+## Usuario de Test
+
+Se ha creado un usuario de test con las siguientes credenciales:
+
+- Email: "test@email.com"
+- Contraseña: "pass"

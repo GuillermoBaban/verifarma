@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="relative bg-primary">
+    <div class="fixed top-0 w-full bg-primary z-50">
       <div class="flex justify-between items-center">
         <header>
           <nav class="flex items-center">
