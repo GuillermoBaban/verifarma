@@ -3,6 +3,7 @@ import GithubProvider from "next-auth/providers/github";
 import CredentialsProvider from "next-auth/providers/credentials";
 
 export default NuxtAuthHandler({
+  secret: process.env.AUTH_NO_SECRET,
   pages: {
     signIn: "/",
   },
